@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar } from './components/common/Navbar'
-import { Home } from './components/home/Home'
+import { Index } from './components/home/Index'
 function App() {
 
   return (
@@ -8,8 +8,8 @@ function App() {
      <div>
         <Navbar/>
      </div>
-     <div>
-        <Home/>
+     <div className='pt-11'>
+        <Index/>
      </div>
     </>
   )

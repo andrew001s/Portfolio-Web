@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: 'Fredoka One';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+  }
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

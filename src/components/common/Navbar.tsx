@@ -1,8 +1,8 @@
 export const Navbar = () => {
   return (
-    <div className="relative inline-flex items-center justify-center">
+    <div className="relative inline-flex z-40 items-center justify-center">
       <div className="fixed top-2 ">
-        <nav className="backdrop-blur-sm backdrop-opacity-10 backdrop-invert bg-white/2 rounded-full ">
+        <nav className="backdrop-blur-lg  bg-white/10 rounded-full ">
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -53,20 +53,34 @@ export const Navbar = () => {
                       href="#"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition ease-in-out delay-100 hover:transform hover:scale-150"
                     >
-                      Team
+                      Home
                     </a>
                     <a
                       href="#"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition ease-in-out delay-100 hover:transform hover:scale-150 hover:text-white"
                     >
-                      Projects
+                      Skills
                     </a>
                     <a
                       href="#"
                       className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition ease-in-out delay-100 hover:transform hover:scale-150 hover:text-white"
                     >
-                      Calendar
+                      Proyects
                     </a>
+                    <a
+                      href="#"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition ease-in-out delay-100 hover:transform hover:scale-150 hover:text-white"
+                    >
+                      Experience
+                    </a>
+                    <a
+                      href="#"
+                      className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 transition ease-in-out delay-100 hover:transform hover:scale-150 hover:text-white"
+                    >
+                      Contact
+                    </a>
+
+                    
                   </div>
                 </div>
               </div>
