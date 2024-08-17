@@ -15,18 +15,18 @@ export const ExperienceCard = ({
       <div className="flex items-center space-x-14">
         <div className="flex-initial">
           <h1 className="text-white text-2xl pl-3 pt-2 text-left  font-bold">
-            {title + ":"}
+            {title}
           </h1>
-          <h1 className="text-white text-2xl pl-3 pt-2 text-left ">
-            {Job + ":"}
-          </h1>
-          <h1 className="text-white text-2xl pl-3 pt-2 text-left ">
-            {Date + ":"}
-          </h1>
+          <h3 className="text-white text-2xl pl-3 pt-2 text-left ">
+            {Job }
+          </h3>
+          <h3 className="text-white text-2xl pl-3 pt-2 text-left ">
+            {Date}
+          </h3>
         </div>
         <div className="flex-initial ">
           <h1 className="text-white text-2xl pl-3 pt-2 text-left ">
-            {Description + ":"}
+            {Description}
           </h1>
         </div>
       </div>

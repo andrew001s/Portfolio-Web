@@ -3,7 +3,7 @@ import { CardLarge } from "../common/CardLarge";
 
 export const Skills = () => {
   return (
-    <div className="-space-y-48 space-x-7">
+    <div  className="-space-y-48 space-x-7">
       <div className="grid grid-cols-3 grid-flow-row gap-4">
         <Card
           title="⌨️ Lenguages"

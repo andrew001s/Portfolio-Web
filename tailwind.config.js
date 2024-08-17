@@ -17,6 +17,7 @@ export default {
     fontFamily: {
       fredoka: ['Fredoka One', 'sans-serif'],
     },
+
   },
   plugins: [],
 }

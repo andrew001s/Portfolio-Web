@@ -4,10 +4,12 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import { faCloudArrowDown } from "@fortawesome/free-solid-svg-icons";
+import download from "../../services/downloadCVHandler";
+
 
 export const Home = () => {
   return (
-    <div>
+    <div id="home">
       <div className="relative ">
         <h1 className="font-fredoka text-center">Hi, I'm Andrés 👋,</h1>
         <h1 className="font-fredoka text-center">Full Stack Developer.</h1>
@@ -74,7 +76,7 @@ export const Home = () => {
           <FontAwesomeIcon icon={faEnvelope} className="pr-2" style={{ color: "#ffffff" }} />
           Contact me
         </button>
-        <button className="bg-transparent border-2 scale-125 border-white  transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full">
+        <button onClick={download} className="bg-transparent border-2 scale-125 border-white  transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full">
           <FontAwesomeIcon icon={faCloudArrowDown} className="pr-2" style={{ color: "#ffffff" }} />
           Download CV
         </button>

@@ -9,13 +9,13 @@ export const Index = () => {
   return (
     <div >
         <Home/>
-        <Separator text="Skills"/>
+        <Separator id="skills" text="Skills"/>
         <Skills/>
-        <Separator text="Projects"/>
+        <Separator id="proyects" text="Projects"/>
         <Projects/>
-        <Separator text="Experience"/>
+        <Separator id="experience" text="Experience"/>
         <Experience/>
-        <Separator text="Contact Me"/>
+        <Separator id="contact" text="Contact Me"/>
         <Contact/>
     </div>
   )
