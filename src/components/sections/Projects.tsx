@@ -31,6 +31,8 @@ export const Projects = () => {
           <ProjectCard
             title={project.name}
             src={project.image}
+            code={project.code}
+            project={project.url}
             tech={getTech(project.tech)}
           />
         ))}
