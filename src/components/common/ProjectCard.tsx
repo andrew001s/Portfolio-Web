@@ -1,8 +1,7 @@
 import { faServer } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+
 
 interface CardProps {
   title: string;

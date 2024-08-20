@@ -128,8 +128,8 @@ export const Contact = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-wrap  justify-center space-x-6  scale-150 sm:block hidden">
-        <div className="col-span-3">
+      <div className="flex flex-wrap  justify-center space-x-6  scale-150 ">
+        <div className="col-span-3 sm:block hidden">
           <a
             href="https://www.youtube.com/channel/UCjxyFoqzFm45CJmOB6ANqiA"
             target="_blank"
@@ -144,7 +144,7 @@ export const Contact = () => {
             Youtube
           </a>
         </div>
-        <div className="col-span-3">
+        <div className="col-span-3 sm:block hidden">
           <a
             href="https://twitter.com/ElShandrew"
             target="_blank"
@@ -159,7 +159,7 @@ export const Contact = () => {
             Twitter
           </a>
         </div>
-        <div className="col-span-3">
+        <div className="col-span-3 sm:block hidden">
           <a
             href="https://www.tiktok.com/@elshandrew"
             target="_blank"
@@ -174,7 +174,7 @@ export const Contact = () => {
             TikTok
           </a>
         </div>
-        <div className="col-span-3">
+        <div className="col-span-3 sm:block hidden">
           <a
             href="https://twitch.tv/elshandrew"
             target="_blank"

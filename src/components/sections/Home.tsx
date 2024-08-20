@@ -15,28 +15,28 @@ export const Home = () => {
       </div>
 
       <div className="flex flex-row justify-center items-center space-x-4  ">
-        <div className="flex flex-col space-y-6 justify-center items-center sm:block hidden ">
+        <div className="flex flex-col space-y-6 justify-center items-center ">
           <a
             href="https://www.linkedin.com/in/andr%C3%A9s-rom%C3%A1n/"
             target="_blank"
             rel="noopener"
-            className="bg-transparent border-2 scale-125 border-white transition ease-in-out delay-100 hover:bg-blue-700 hover:text-white hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full"
+            className="bg-transparent sm:block hidden  border-2 scale-125 border-white transition ease-in-out delay-100 hover:bg-blue-700 hover:text-white hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full"
           >
             <FontAwesomeIcon
               className="pr-1"
               icon={faLinkedin}
               style={{ color: "#ffffff" }}
             />
-            LinkedIn
+            Linkedn
           </a>
           <a
             href="https://github.com/andrew001s"
             target="_blank"
             rel="noopener"
-            className=" bg-transparent border-2 scale-125 border-white transition ease-in-out delay-100 hover:border-gray-900 hover:bg-gray-900 hover:text-white text-white font-bold py-2 px-4 rounded-full"
+            className=" bg-transparent border-2 sm:block hidden  scale-125 border-white transition ease-in-out delay-100 hover:border-gray-900 hover:bg-gray-900 hover:text-white text-white font-bold py-2 px-4 rounded-full"
           >
             <FontAwesomeIcon
-              className="pr-3"
+              className="pr-2"
               icon={faGithub}
               style={{ color: "#ffffff" }}
             />
