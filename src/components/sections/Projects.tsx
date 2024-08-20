@@ -26,15 +26,15 @@ export const Projects = () => {
 
   return (
     <div>
-      <div className="grid grid-rows-2 grid-flow-col gap-4">
+      <div className="grid sm:grid-rows-2  sm:grid-flow-col gap-4">
         {projects.map((project:any) => (
           <ProjectCard
             title={project.name}
             src={project.image}
             code={project.code}
             project={project.url}
-            tech={getTech(project.tech)}
-          />
+            tech={getTech(project.tech)} 
+            description={project.description}          />
         ))}
     </div>
     <div className="flex justify-center p-2">

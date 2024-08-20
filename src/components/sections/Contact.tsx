@@ -51,7 +51,7 @@ export const Contact = () => {
           Email
         </a>
       </div>
-      <div className="flex flex-wrap  justify-center space-x-6 pt-8 scale-150 pb-14">
+      <div className="sm:flex sm:flex-wrap sm:space-y-0 space-y-6 justify-center sm:space-x-6  sm:pt-8 pt-20 scale-150 pb-14 ">
         <div className="col-span-2">
           <a
             href="https://www.linkedin.com/in/andr%C3%A9s-rom%C3%A1n/"
@@ -128,7 +128,7 @@ export const Contact = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-wrap  justify-center space-x-6  scale-150">
+      <div className="flex flex-wrap  justify-center space-x-6  scale-150 sm:block hidden">
         <div className="col-span-3">
           <a
             href="https://www.youtube.com/channel/UCjxyFoqzFm45CJmOB6ANqiA"
@@ -190,6 +190,8 @@ export const Contact = () => {
           </a>
         </div>
       </div>
+      
+
     </div>
   );
 };

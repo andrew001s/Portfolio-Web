@@ -3,8 +3,8 @@ import { CardLarge } from "../common/CardLarge";
 
 export const Skills = () => {
   return (
-    <div  className="-space-y-48 space-x-7">
-      <div className="grid grid-cols-3 grid-flow-row gap-4">
+    <div  className="sm:-space-y-48 space-y-4 sm:space-x-7">
+      <div className="grid sm:grid-cols-3 grid-flow-row gap-4">
         <Card
           title="⌨️ Lenguages"
           src="https://skillicons.dev/icons?i=cs,java,python,js&perline=4"
@@ -22,12 +22,13 @@ export const Skills = () => {
           src="https://skillicons.dev/icons?i=mongodb,mysql,postgres&perline=4"
         />
       </div>
-      <div className="relative left-96 ">
+      <div className="sm:relative sm:left-96 ">
         <CardLarge
           title="🚧 Extras"
           src="https://skillicons.dev/icons?i=git,github,arch,bash,blender,discord,docker,gitlab,gmail,idea,linkedin,linux,ps,postman,pycharm,selenium,tensorflow,ubuntu,visualstudio,vscode,windows&perline=13"
         />
       </div>
+
     </div>
   );
 };

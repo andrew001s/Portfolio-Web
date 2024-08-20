@@ -7,7 +7,7 @@ import { Skills } from "../sections/Skills"
 
 export const Index = () => {
   return (
-    <div >
+    <div className="pt-9">
         <Home/>
         <Separator id="skills" text="Skills"/>
         <Skills/>
