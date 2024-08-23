@@ -46,18 +46,18 @@ export const Home = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center space-x-16 flex-wrap lg:pt-0 lg:space-y-0  space-y-6 pt-12">
-        <button className="bg-transparent border-2 scale-125 border-white max-sm:w-80 max-lg:w-96  transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700  text-white font-bold py-2 px-4 rounded-full">
+      <div className="flex justify-center max-sm:w-80 max-lg:w-96 space-x-16 flex-wrap lg:pt-0 lg:space-y-0  space-y-6 pt-12">
+        <a href="#contact" className="bg-transparent border-2 scale-125 max-lg:w-full  hover:text-white border-white max-sm:w-64 transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700  text-white font-bold py-2 px-4 rounded-full">
           <FontAwesomeIcon
             icon={faEnvelope}
-            className="pr-2"
+            className="relative left-0 pr-2"
             style={{ color: "#ffffff" }}
           />
           Contact me
-        </button>
+        </a>
         <button
           onClick={download}
-          className="bg-transparent border-2 scale-125 border-white lg:-translate-x-0 -translate-x-9  max-sm:w-80 max-lg:w-96 transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full"
+          className="bg-transparent border-2 scale-125 border-white lg:-translate-x-0 -translate-x-9  max-lg:w-full transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full"
         >
           <FontAwesomeIcon
             icon={faCloudArrowDown}
