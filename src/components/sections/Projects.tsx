@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 import { ProjectCard } from "../common/ProjectCard"
 import { getPrujects } from "../../services/proyectHandler";
 import { PaginationComponent } from "../common/PaginationComponent";
+import { Loading } from "../common/Loading";
 
 
 export const Projects = () => {
   const [projects, setProjects] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
   const [totalPages, setTotalPages] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -16,6 +18,7 @@ export const Projects = () => {
       setProjects(res.data.items);
       setCurrentPage(res.data.currentPage);
       setTotalPages(res.data.totalPages);
+      setIsLoading(false);
     });
   }, [currentPage]);
  
@@ -26,6 +29,7 @@ export const Projects = () => {
 
   return (
     <div>
+      {isLoading && <div className="flex justify-center items-center p-4"><Loading /></div>}
       <div className="grid lg:grid-rows-2 lg:grid-flow-col gap-4">
         {projects.map((project:any) => (
           <ProjectCard

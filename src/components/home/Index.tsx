@@ -1,3 +1,4 @@
+import { Footer } from "../common/Footer"
 import { Separator } from "../common/Separator"
 import { Contact } from "../sections/Contact"
 import { Experience } from "../sections/Experience"
@@ -17,6 +18,7 @@ export const Index = () => {
         <Experience/>
         <Separator id="contact" text="Contact Me"/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }
