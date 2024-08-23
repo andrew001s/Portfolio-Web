@@ -10,10 +10,10 @@ export const Navbar = () => {
   return (
     <div className="relative inline-flex z-40 items-center justify-center">
       <div className="fixed top-2">
-        <nav className="backdrop-blur-lg bg-white/10 rounded-full">
+        <nav className="sm:backdrop-blur-lg sm:bg-white/10 rounded-full">
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <div className="fixed left-4 flex items-center sm:hidden">
                 <button
                   type="button"
                   className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -94,7 +94,7 @@ export const Navbar = () => {
           </div>
 
           <div className={`${isMenuOpen ? "block" : "hidden"} sm:hidden`} id="mobile-menu">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+            <div className="fixed left-4 px-2 pb-3 pt-2 bg-white/10 backdrop-blur-lg rounded-xl">
               <a
                 href="#home"
                 className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"

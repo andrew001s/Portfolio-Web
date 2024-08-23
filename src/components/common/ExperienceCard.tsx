@@ -29,7 +29,7 @@ export const ExperienceCard = ({
         </div>
       </div>
       <div className="sm:hidden block">
-        <div className=" bg-gray-900 hover:bg-blue-700 hover:border-blue-700 border-white border-2 rounded-lg">
+        <div className=" bg-gray-900 hover:bg-blue-700 w-full hover:border-blue-700 border-white border-2 rounded-lg p-4">
           <h1 className="text-white text-2xl pl-3 pt-2 text-left  font-bold">
             {title}
           </h1>

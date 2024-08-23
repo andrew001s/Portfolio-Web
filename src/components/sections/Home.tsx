@@ -15,35 +15,8 @@ export const Home = () => {
       </div>
 
       <div className="flex flex-row justify-center items-center space-x-4  ">
-        <div className="flex flex-col space-y-6 justify-center items-center ">
-          <a
-            href="https://www.linkedin.com/in/andr%C3%A9s-rom%C3%A1n/"
-            target="_blank"
-            rel="noopener"
-            className="bg-transparent sm:block hidden  border-2 scale-125 border-white transition ease-in-out delay-100 hover:bg-blue-700 hover:text-white hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full"
-          >
-            <FontAwesomeIcon
-              className="pr-1"
-              icon={faLinkedin}
-              style={{ color: "#ffffff" }}
-            />
-            Linkedn
-          </a>
-          <a
-            href="https://github.com/andrew001s"
-            target="_blank"
-            rel="noopener"
-            className=" bg-transparent border-2 sm:block hidden  scale-125 border-white transition ease-in-out delay-100 hover:border-gray-900 hover:bg-gray-900 hover:text-white text-white font-bold py-2 px-4 rounded-full"
-          >
-            <FontAwesomeIcon
-              className="pr-2"
-              icon={faGithub}
-              style={{ color: "#ffffff" }}
-            />
-            GitHub
-          </a>
-        </div>
-        <div className="flex flex-col flex-wrap sm:relative sm:z-0 -z-10 sm:opacity-100 opacity-30 absolute ">
+
+        <div className="flex flex-col flex-wrap lg:relative lg:z-0 -z-10 lg:opacity-100 opacity-30 absolute ">
           <img
             className="drop-shadow-custom "
             width="350"
@@ -52,26 +25,29 @@ export const Home = () => {
             alt="placeholder"
           />
         </div>
-        <div className="flex flex-col text-lg text-left">
+        <div className="flex flex-col text-lg text-left w-full">
+          
           <ul>
             <li>
-              💡 I like to explore new technologies and develop software
-              solutions and quick hacks.
+              • Information Systems Engineer, about to complete my degree.
             </li>
             <li>
-              🎓 I'm currently studying System Engineering at the Universidad
-              Central del Ecuador.
+              • Experienced in equipment maintenance, backend programming, and 3D design.
             </li>
             <li>
-              ✍️ In my free time, I draw in digital and make content in youtube
-              as hobbies/side hustles.
+              • Proficient in multiple programming languages and comfortable working in .NET environments.
             </li>
-            <li>🤡 Vtuber.</li>
+            <li>
+              • Strong knowledge in cybersecurity and databases.
+            </li>
+            <li>
+              • Passionate about continuous learning and problem-solving.
+            </li>
           </ul>
         </div>
       </div>
-      <div className="flex justify-center space-x-16 flex-wrap sm:pt-0 sm:space-y-0  space-y-4 pt-12">
-        <button className="bg-transparent border-2 scale-125 border-white  transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full">
+      <div className="flex justify-center space-x-16 flex-wrap lg:pt-0 lg:space-y-0  space-y-6 pt-12">
+        <button className="bg-transparent border-2 scale-125 border-white max-sm:w-80 max-lg:w-96  transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700  text-white font-bold py-2 px-4 rounded-full">
           <FontAwesomeIcon
             icon={faEnvelope}
             className="pr-2"
@@ -81,7 +57,7 @@ export const Home = () => {
         </button>
         <button
           onClick={download}
-          className="bg-transparent border-2 scale-125 border-white sm:-translate-x-0  -translate-x-9  transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full"
+          className="bg-transparent border-2 scale-125 border-white lg:-translate-x-0 -translate-x-9  max-sm:w-80 max-lg:w-96 transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full"
         >
           <FontAwesomeIcon
             icon={faCloudArrowDown}
@@ -90,34 +66,32 @@ export const Home = () => {
           />
           Download CV
         </button>
-        <div className="sm:hidden -translate-x-9  block">
-          <a
-            href="https://www.linkedin.com/in/andr%C3%A9s-rom%C3%A1n/"
-            target="_blank"
-            rel="noopener"
-            className="bg-transparent border-2 scale-125 border-white transition ease-in-out delay-100 hover:bg-blue-700 hover:text-white hover:border-blue-700 text-white font-bold py-2 px-4 rounded-full"
-          >
-            <FontAwesomeIcon
+        <a
+          href="https://www.linkedin.com/in/andr%C3%A9s-rom%C3%A1n/"
+          target="_blank"
+          rel="noopener"
+          className="bg-transparent border-2 scale-125 border-white lg:-translate-x-0  -translate-x-9  max-sm:w-80 max-lg:w-96 transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700 hover:text-white text-white font-bold py-2 px-4 rounded-full"
+        >
+           <FontAwesomeIcon
               className="pr-1"
               icon={faLinkedin}
               style={{ color: "#ffffff" }}
             />
             LinkedIn
-          </a>
-          <a
-            href="https://github.com/andrew001s"
-            target="_blank"
-            rel="noopener"
-            className=" bg-transparent border-2 scale-125 border-white transition ease-in-out delay-100 hover:border-gray-900 hover:bg-gray-900 hover:text-white text-white font-bold py-2 px-4 rounded-full"
-          >
-            <FontAwesomeIcon
+        </a>
+        <a
+          href="https://github.com/andrew001s"
+          target="_blank"
+          rel="noopener"
+          className="bg-transparent border-2 scale-125 border-white lg:-translate-x-0  -translate-x-9 max-sm:w-80 max-lg:w-96 transition ease-in-out delay-100 hover:bg-blue-700 hover:border-blue-700 hover:text-white text-white font-bold py-2 px-4 rounded-full"
+        >
+           <FontAwesomeIcon
               className="pr-3"
               icon={faGithub}
               style={{ color: "#ffffff" }}
             />
             GitHub
-          </a>
-        </div>
+        </a>
       </div>
     </div>
   );

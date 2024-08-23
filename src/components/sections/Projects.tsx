@@ -26,7 +26,7 @@ export const Projects = () => {
 
   return (
     <div>
-      <div className="grid sm:grid-rows-2  sm:grid-flow-col gap-4">
+      <div className="grid lg:grid-rows-2 lg:grid-flow-col gap-4">
         {projects.map((project:any) => (
           <ProjectCard
             title={project.name}
@@ -37,7 +37,7 @@ export const Projects = () => {
             description={project.description}          />
         ))}
     </div>
-    <div className="flex justify-center p-2">
+    <div className="flex justify-center items-center p-2">
       <PaginationComponent total={totalPages} current={currentPage} onPageChange={setCurrentPage}/>
     </div>
     </div>
